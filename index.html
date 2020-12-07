@@ -442,12 +442,36 @@
        </div>
         <div class="form-group mt-3">
             <!--email-->
-            <input type="email" class="form-control form-control-lg" id="email">
+            <input type="email" class="form-control" id="email" placeholder="email">
         </div>
         <div class="form-group mt-3">
             <!--phone-->
-            <input type="phone" class="form-control form-control-lg" id="phone">
+            <input type="tel" class="form-control" id="phone" placeholder="phone">
         </div>
+<!--        input group            -->
+                    <div class="input-group my-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">username</span>
+                        </div>
+                        <input type="text" class="form-control" id="group-username">
+                    </div>
+            <!--  font-awesome-->
+                    <div class="input-group my-3">
+                <!--prepend-->
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <!-- end of prepend-->
+                        <input type="text" class="form-control" id="group-username-1" placeholder="username">
+                   <!--append-->
+                        <div class="group-append">
+                            <button type="button" class="btn btn-primary">submit</button>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-outline-dark btn-block text-uppercase">sign up here</button>
+
+
+<!--       end of input group            -->
 
 <!-- end ofform-->
                 </div>
@@ -463,6 +487,186 @@
 </section>
 
 <!--end of contact section-->
+
+<!--review section-->
+<section id="review" class="bg-danger py-5">
+    <div class="container">
+        <!--title-->
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-4 text-dark text-uppercase mb-0">review</h1>
+                <div class="title-underline bg-secondary"></div>
+                <p class="text-capitalize text-muted mt-2">Lorem ipsum dolor sit amet.</p>
+
+            </div>
+        </div>
+        <!--    end of title-->
+        <div class="row">
+            <div class="col-md-6 my-4">
+                <img src="img/team-1.jpg" class="img-fluid rounded-circle d-none d-md-block" alt="">
+            </div>
+            <div class="col-md-6 my-4">
+                <blockquote class="blockquote text-right">
+                    <p><i class="fas fa-quote-left fa-2x mr-3"></i>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque modi molestiae quibusdam repellendus saepe ullam?
+                    </p>
+                </blockquote>
+                <footer class="blockquote-footer text-left">master coder</footer>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end of review section-->
+<!--progress section-->
+<section id="progress" class="py-5">
+    <div class="container">
+        <!--title-->
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-4 text-dark text-uppercase mb-0">progress</h1>
+                <div class="title-underline bg-primary"></div>
+                <p class="text-capitalize text-muted mt-2">Lorem ipsum dolor sit amet.</p>
+
+            </div>
+        </div>
+        <!--    end of title-->
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <!--progress single bar-->
+                <h1 class="text-white">html</h1>
+                <div class="progress bg-secondary">
+                    <div class="progress bg-success" style="width: 20%"></div>
+                </div>
+                <h1 class="text-white">css</h1>
+                <div class="progress bg-secondary">
+                    <div class="progress bg-danger" style="width: 40%"></div>
+                </div>
+                <h1 class="text-white">js</h1>
+                <div class="progress bg-secondary">
+                    <div class="progress bg-warning" style="width: 60%"></div>
+                </div>
+                <div class="prog my-3 d-flex text-white justify-content-between">
+                    <h3>bootsrap</h3>
+                    <h3>80%</h3>
+                </div>
+                <div class="progress bg-secondary">
+                    <div class="progress bg-primary" style="width: 80%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--end of progress section-->
+<!--prising section-->
+<section id="prising" class="py-5 bg-secondary">
+    <div class="container-fluid">
+        <!--title-->
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-4 text-dark text-uppercase mb-0">pricing</h1>
+                <div class="title-underline bg-primary"></div>
+                <p class="text-capitalize text-muted mt-2">Lorem ipsum dolor sit amet.</p>
+
+            </div>
+        </div>
+        <!--    end of title-->
+        <div class="row">
+        <!-- card-->
+            <div class="col-md-4 my-4">
+                <div class="card">
+                    <!--card header-->
+                    <div class="card-header bg-primary text-uppercase text-center text-white py-4">
+                        <h3>standard</h3>
+                    </div>
+                    <!--card title-->
+                    <div class="card-title text-center my-3">
+                        <h4>
+                            <sup>$</sup>5
+                            <sub>/month</sub>
+                        </h4>
+                    </div>
+                    <!--list-->
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">Lorem ipsum dolor.</li>
+                        <li class="list-group-item">Lorem ipsum dolor.</li>
+                        <li class="list-group-item">Lorem ipsum dolor.</li>
+                    </ul>
+                    <!--card footer-->
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-outline-dark btn-block text-capitalize">sign up</a>
+                    </div>
+                </div>
+            <!--end of card-->
+
+            </div>
+            <!-- card-->
+            <div class="col-md-4 my-4">
+                <div class="card">
+                    <!--card header-->
+                    <div class="card-header bg-primary text-uppercase text-center text-white py-4">
+                        <h3>basic</h3>
+                    </div>
+                    <!--card title-->
+                    <div class="card-title text-center my-3">
+                        <h4>
+                            <sup>$</sup>10
+                            <sub>/month</sub>
+                        </h4>
+                    </div>
+                    <!--list-->
+                    <div class="card-body">
+                        <ul class="list-group text-center">
+                            <li class="list-group-item">Lorem ipsum dolor.</li>
+                            <li class="list-group-item">Lorem ipsum dolor.</li>
+                            <li class="list-group-item">Lorem ipsum dolor.</li>
+                        </ul>
+                    </div>
+
+                    <!--card footer-->
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-outline-dark btn-block text-capitalize">sign up</a>
+                    </div>
+                </div>
+                <!--end of card-->
+
+            </div>
+            <!-- card-->
+            <div class="col-md-4 my-4">
+                <div class="card">
+                    <!--card header-->
+                    <div class="card-header bg-primary text-uppercase text-center text-white py-4">
+                        <h3>pro</h3>
+                    </div>
+                    <!--card title-->
+                    <div class="card-title text-center my-3">
+                        <h4>
+                            <sup>$</sup>15
+                            <sub>/month</sub>
+                        </h4>
+                    </div>
+                    <!--list-->
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">Lorem ipsum dolor.</li>
+                        <li class="list-group-item">Lorem ipsum dolor.</li>
+                        <li class="list-group-item">Lorem ipsum dolor.</li>
+                    </ul>
+                    <!--card footer-->
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-outline-dark btn-block text-capitalize">sign up</a>
+                    </div>
+                </div>
+                <!--end of card-->
+
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+
+<!--end of prising section-->
 
 
 
